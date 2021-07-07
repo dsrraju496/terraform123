@@ -12,6 +12,7 @@ variable "aws_region" {
 variable "owner" {
   description = "Configuration owner"
   type        = string
+  default = 1
 }
  
 variable "aws_region_az" {
